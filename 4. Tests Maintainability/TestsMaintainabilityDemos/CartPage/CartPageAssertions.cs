@@ -8,19 +8,17 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-using System.Collections.Generic;
-using OpenQA.Selenium;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestsMaintainabilityDemos
+namespace TestsMaintainabilityDemos.Facades.First
 {
-    public abstract class Driver
+    public class CartPageAssertions
     {
-        public abstract void Start(Browser browser);
-        public abstract void Quit();
-        public abstract void GoToUrl(string url);
-        public abstract Element FindElement(By locator);
-        public abstract List<Element> FindElements(By locator);
-        public abstract void WaitForAjax();
-        public abstract void WaitUntilPageLoadsCompletely();
+        private readonly CartPageElements _elements;
+
+        public CartPageAssertions(CartPageElements elements)
+        {
+            _elements = elements;
+        }      
     }
 }
