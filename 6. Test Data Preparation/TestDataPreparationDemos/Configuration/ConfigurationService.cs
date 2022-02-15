@@ -1,4 +1,4 @@
-﻿// Copyright 2021 Automate The Planet Ltd.
+﻿// Copyright 2022 Automate The Planet Ltd.
 // Author: Anton Angelov
 // Licensed under the Apache License, Version 2.0 (the "License");
 // You may not use this file except in compliance with the License.
@@ -32,11 +32,11 @@ namespace TestDataPreparationDemos
             return result;
         }
 
-        public static BillingInfoDefaultValues GetBillingInfoDefaultValues()
-        {
-            var result = Root.GetSection("billingInfoDefaultValues").Get<BillingInfoDefaultValues>();
-            return result;
-        }
+        ////public static BillingInfoDefaultValues GetBillingInfoDefaultValues()
+        ////{
+        ////    var result = Root.GetSection("billingInfoDefaultValues").Get<BillingInfoDefaultValues>();
+        ////    return result;
+        ////}
 
 
         public static WebSettings GetWebSettings()
