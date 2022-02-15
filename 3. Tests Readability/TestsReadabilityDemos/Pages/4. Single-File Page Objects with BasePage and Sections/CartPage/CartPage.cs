@@ -1,4 +1,4 @@
-﻿// Copyright 2021 Automate The Planet Ltd.
+﻿// Copyright 2022 Automate The Planet Ltd.
 // Author: Anton Angelov
 // Licensed under the Apache License, Version 2.0 (the "License");
 // You may not use this file except in compliance with the License.
@@ -34,33 +34,29 @@ namespace TestsReadabilityDemos.Fourth
 
         public void ApplyCoupon(string coupon)
         {
-            CouponCodeTextField.TypeText(coupon);
-            ApplyCouponButton.Click();
-            Driver.WaitForAjax();
-
+            // TODO: Implement it
         }
 
         public void IncreaseProductQuantity(int newQuantity)
         {
-            QuantityBox.TypeText(newQuantity.ToString());
-            UpdateCart.Click();
-            Driver.WaitForAjax();
+            // TODO: Implement it
         }
 
         public void ClickProceedToCheckout()
         {
-            ProceedToCheckout.Click();
-            Driver.WaitUntilPageLoadsCompletely();
+            // TODO: Implement it
         }
 
         public string GetTotal()
         {
-            return TotalSpan.Text;
+            // TODO: Implement it
+            return "";
         }
 
         public string GetMessageNotification()
         {
-            return MessageAlert.Text;
+            // TODO: Implement it
+            return "";
         }
     }
 }

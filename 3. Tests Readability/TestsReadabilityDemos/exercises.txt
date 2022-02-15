@@ -1,0 +1,3 @@
+﻿Exercise 1: Implement ApplyCoupon, IncreaseProductQuantity, ClickProceedToCheckout, GetMessageNotification and
+GetTotal methods in TestsReadabilityDemos.Fourth.CartPage class.
+Make sure that CompletePurchaseSuccessfully_WhenNewClient test is passing.
